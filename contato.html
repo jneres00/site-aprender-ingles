@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="contato.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="stylesheet">
+  <title>Contato</title> 
+  
+</head>
+<body>
+  <header>
+    <div class="homepage">
+        <button class="home"><a href="index.html"><img src="home.png">Início</button></a>
+    </div>
+    <p>Tem alguma dúvida, comentário ou sugestão? Ficarei feliz em ajudar você!</p></header>
+
+  <!--Redes Sociais-->
+   <ul class="socialmedia">
+    <li><a href="https://pt-br.facebook.com/"><i class="fab fa-facebook-f"></a></i></li>
+
+    <li><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></a></i></li>
+
+    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></a></i></li>
+
+    <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></a></i></li>
+  </ul>
+
+<!--Formulário de Entre em Contato-->
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" placeholder="Seu nome" required>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" placeholder="Seu melhor email" required>
+
+          <label for="subject">Mensagem:</label>
+          <textarea id="subject" name="subject" placeholder="Deixe sua mensagem" style="height:200px" required></textarea>
+          <input class="btn" type="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>
